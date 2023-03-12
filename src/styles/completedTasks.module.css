@@ -1,0 +1,39 @@
+.container {
+  padding: 20px 0  10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.title {
+  color: var(--textGray);
+  text-transform: capitalize;
+}
+
+.button{
+  height: 16px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color:  var(--textGray);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all .3s ease;
+  transform: rotateZ(0);
+}
+
+.rotate {
+  transform: rotateZ(180deg);
+}
+
+
+.tasks {
+  height: 0;
+  transition: height .3s ease;
+  overflow: hidden;
+}
+
+.tasksColapse {
+  max-height: 0;
+}

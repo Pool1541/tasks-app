@@ -1,0 +1,52 @@
+.container {
+  width: 320px;
+  background-color:var(--gray);
+  border-radius: 8px;
+  transition: all .2s ease;
+}
+
+.content {
+  text-align: center;
+  padding: 18px;
+  color: var(--paragraphGray);
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.container:hover {
+  background-color: var(--grayHover);
+}
+
+.inputContainer {
+  width: 320px;
+  background-color:var(--gray);
+  border-radius: 8px;
+}
+
+.inputContent {
+  padding: 15px;
+  color: var(--titleWhite);
+  position: relative;
+}
+
+.inputContent input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding-right: 30px;
+  /* color: var(--white); */
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.icon {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  font-size: 1.8rem;
+  color: var(--lightBlue);
+  transition: all .2s ease;
+  cursor: pointer;
+}

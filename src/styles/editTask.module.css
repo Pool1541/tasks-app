@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.inputTitle, .inputDescription {
+  border: none;
+  outline: none;
+  /* background-color: var(--gray); */
+  overflow: hidden;
+  resize: none;
+  display: block;
+  background-color: transparent;
+  color: inherit;
+}
+
+.inputTitle {
+  width: 100%;
+  font-size: 1rem;
+  /* color: var(--titleWhite); */
+  font-weight: 600;
+}
+
+.inputDescription {
+  width: 100%;
+  font-size: .8rem;
+  /* color: var(--paragraphGray); */
+  font-weight: 500;
+}
+
+.btnEdit {
+  border: none;
+  background-color: transparent;
+  padding: 0 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--green);
+  transition: color .3s ease-in-out;
+}
+
+.btnEdit:hover {
+  color: var(--greenHover);
+}
+
+.textAreaContainer {
+  min-width: 201px;
+}

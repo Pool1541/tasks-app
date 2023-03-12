@@ -1,0 +1,41 @@
+.container {
+  position: absolute;
+  top: 70px;
+  right: -40px;
+  z-index: 2;
+  /* background-color: var(--lightGray); */
+  border-radius: 6px;
+  box-shadow: rgb(95 99 104 / 24%) 0px 0px 0px 3px;
+}
+
+.arrow {
+  position: absolute;
+  top: -5px;
+  left: 75px;
+  background-color: inherit;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  z-index: 1;
+  box-shadow: rgb(95 99 104 / 24%) 0px 0px 0px 3px;
+}
+
+.box {
+  position: relative;
+  padding: 10px 0;
+  z-index: 10;
+  border-radius: 6px;
+}
+
+.option {
+  cursor: pointer;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 5px 20px;
+  /* color: var(--white) ; */
+} 
+
+.option:hover {
+  background-color: rgb(151, 151, 151);
+}

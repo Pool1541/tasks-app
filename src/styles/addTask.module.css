@@ -1,0 +1,55 @@
+.container {
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.inputTitle, .inputDescription {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  overflow: hidden;
+  resize: none;
+  display: block;
+}
+
+.icon {
+  font-size: 1.8rem;
+  color: var(--lightBlue);
+  transition: all .2s ease;
+}
+
+.addTask:hover >  .icon {
+  border-radius: 50%;
+  background-color: var(--lightBlue);
+  color: rgb(41, 42, 47);
+}
+
+.addTask:hover {
+  color: var(--lightBlue) ;
+}
+
+.addTask {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--textGray);
+  font-weight: 400;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.inputTitle {
+  font-size: 1rem;
+  color: var(--titleWhite);
+  font-weight: 600;
+}
+
+.inputDescription {
+  width: 100%;
+  font-size: .8rem;
+  color: var(--paragraphGray);
+  font-weight: 500;
+}

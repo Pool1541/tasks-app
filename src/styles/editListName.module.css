@@ -1,0 +1,13 @@
+.title {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  overflow: hidden;
+  resize: none;
+  display: block;
+
+  min-width: 95%;
+  font-size: 1.2rem;
+  /* color: var(--white); */
+  font-weight: 700;
+}

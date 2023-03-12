@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signIn {
+
+}
+
+.logo {
+  user-select: none;
+  display: flex;
+  gap: 15px;
+}
+
+.logo_image {
+  margin: auto;
+  font-size: 3.5rem;  
+}
+
+.logo_name {
+  font-size: 3rem;
+  /* color: var(--titleWhite); */
+}
+
+.btn {
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 10px 0;
+  background-color: var(--lightBlue);
+  color: var(--blue);
+  margin-top: 20px;
+  width: 100%;
+}
+
+span {
+  width: max-content;
+}
+
+
